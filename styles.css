@@ -13,6 +13,7 @@ body, .info, .left {
 
 .logo {
     font-size: 24px;
+    font-weight: 900;
 }
 
 .logo, .subheading {
@@ -21,10 +22,57 @@ body, .info, .left {
 
 .subheading {
     font-size: 48px;
-    font-weight: 900;
 }
 
 .links, .left>.text, .footer {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+button, .sign-up>.container {
+    background-color: #3882f6;
+}
+
+.info>.heading {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    gap: 22px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up {
+    justify-content: center;
+    align-content: center;
+    padding: 80px 140px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

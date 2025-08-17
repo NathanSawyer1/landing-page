@@ -1,0 +1,30 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+}
+
+body, .info, .left {
+    flex-direction: column;
+}
+
+.header, .footer, .introduction {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.logo, .subheading {
+    color: #f9faf8;
+}
+
+.subheading {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.links, .left>.text, .footer {
+    color: #e5e7eb;
+    font-size: 18px;
+}

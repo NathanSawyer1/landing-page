@@ -9,34 +9,109 @@ body, .info, .left {
 
 .header, .footer, .introduction {
     background-color: #1f2937;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction, .info, .quote, .sign-up {
+    padding: 60px 100px;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 900;
+    color: #f9faf8;
 }
 
-.logo, .subheading {
-    color: #f9faf8;
+.introduction {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex: auto;
+    max-width: 480px;
+}
+
+.left>.text {
+    font-size: 16px;
+    color: #e5e7eb;
+    flex-wrap: wrap;
 }
 
 .subheading {
     font-size: 48px;
+    color: #f9faf8;
 }
 
-.links, .left>.text, .footer {
+.image {
+    display: flex;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.links, .footer {
     color: #e5e7eb;
     font-size: 18px;
 }
 
-button, .sign-up>.container {
+button, .container {
     background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+button {
+    border: 2px solid #e5e7eb;
+    border-radius: 4px;
+    padding: 2px 24px;
+}
+
+.left>button {
+    border: 2px solid #3882f6;
 }
 
 .info>.heading {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.block-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    max-width: 150px;
+}
+
+.icon {
+    padding: 70px;
+    border: 3px solid #3882f6;
+    border-radius: 16px;
+}
+
+.block>.text {
+    text-align: center;
 }
 
 .header {
@@ -63,6 +138,13 @@ button, .sign-up>.container {
 .quote-container {
     display: flex;
     flex-direction: column;
+    padding: 80px 140px;
+}
+
+.source {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
 }
 
 .sign-up {
@@ -75,4 +157,11 @@ button, .sign-up>.container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 6px;
+    padding: 40px 34px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
 }
